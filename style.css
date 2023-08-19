@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+background-image:url(https://wallpapercave.com/wp/wp5979943.png)
+}
+canvas{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 38px blue;}
+to{box-shadow: 1px 1px 38px green;}
+}
